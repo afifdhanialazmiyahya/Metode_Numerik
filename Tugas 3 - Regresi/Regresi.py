@@ -6,7 +6,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import LinearRegression
 
 # Membaca data dari dataset
-data_path = "D:\\azmidhanial\S1 Teknik Komputer - Universitas Diponegoro\Semester 4\Metode Numerik\Tugas 3 - Regresi\Student_Performance.csv"
+data_path = "Tugas 3 - Regresi/Student_Performance.csv"
 df = pd.read_csv(data_path)
 
 # Pilih kolom yang relevan
